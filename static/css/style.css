@@ -1,0 +1,41 @@
+/* Here I am changing the style of all paragraphs on my html */
+
+
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+
+/* Here I am changing the style of all h2's on my html  */
+
+h2 {
+    color: grey;
+    text-decoration: underline;
+}
+
+/* Here I am changing of my tables by adding a border */
+
+table, td, th {
+    border-style: solid;
+    border-color: blue;
+}
+
+p#special-one {
+    color: red;
+    font-size: 16px;
+}
+
+/* changing the style of my header class */
+
+h1.header{
+    color:darkblue;
+}
+
+/* getting rid of height and width of my image */
+
+img.logo{
+    width: 267px;
+    height: 72px;
+}
+
