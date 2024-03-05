@@ -15,6 +15,7 @@ def hello():  # put application's code here
 def about():
     return render_template('about.html')
 
+#making the route for my css
 @app.route('/about-css')
 def css():
     return render_template('about-css.html')
