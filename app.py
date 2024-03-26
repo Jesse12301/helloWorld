@@ -23,7 +23,7 @@ def css():
 @app.route('/favorite-course')
 def favorite_course():
     print('subject_entered: ' + request.args.get('subject'))
-    print('class_number: ' + request.args.get('number'))
+    print('course_number: ' + request.args.get('course_number'))
     return render_template('favorite-course.html')
 
 @app.route('/contact', methods=['GET', 'POST'])
