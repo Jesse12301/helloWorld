@@ -225,7 +225,7 @@ def page_not_found(e):
 def training():
     return render_template('training.html')
 
-
+#add
 
 
 if __name__ == '__main__':
